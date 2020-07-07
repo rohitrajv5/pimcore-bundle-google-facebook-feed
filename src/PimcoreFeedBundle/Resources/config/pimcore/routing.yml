@@ -1,0 +1,3 @@
+pimcore_feed_homepage:
+    path:     /pimcore_feed
+    defaults: { _controller: PimcoreFeedBundle:Default:index }
