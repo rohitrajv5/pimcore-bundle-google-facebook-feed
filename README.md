@@ -6,7 +6,7 @@ PimcoreFeedBundle use to generate feed from your product class
 
 Install this bundle using composer install
 ```bash
-composer install rohitrajv5/pimcore-google-facebook-feed 
+composer install rohitrajv5/pimcore-bundle-google-facebook-feed
 ```
 Enable PimcoreFeedBundle bundle
 ```bash
