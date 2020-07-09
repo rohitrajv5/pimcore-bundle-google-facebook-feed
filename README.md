@@ -125,8 +125,8 @@ You are done !
 License
 ----
 
-MIT
+GPL-3.0+
 
 
-**Contact for more updates**
+
 
