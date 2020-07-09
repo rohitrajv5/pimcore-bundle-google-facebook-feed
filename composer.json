@@ -1,14 +1,26 @@
 {
-    "name": "rohitrajv5/pimcore-bundle-google-facebook-feed",
-    "description": "Create Google Feed & Facebook Product Catalogue Feed in Pimcore",
-    "type": "composer-plugin",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Rohit Raj Verma",
-            "email": "rohitrajv5@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "rohitrajv5/pimcore-bundle-google-facebook-feed",
+  "description": "Create Google Feed & Facebook Product Catalogue Feed in Pimcore",
+  "type": "pimcore-bundle",
+  "license": "GPL-3.0+",
+  "keywords": [
+    "pimcore",
+    "facebook",
+    "google",
+    "catalogue",
+    "feed"
+  ],
+  "authors": [
+    {
+      "name": "Rohit Raj Verma",
+      "email": "rohitrajv5@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PimcoreFeedBundle\\":"src"         
+      }     
+   },
+   "require":{} 
 }
