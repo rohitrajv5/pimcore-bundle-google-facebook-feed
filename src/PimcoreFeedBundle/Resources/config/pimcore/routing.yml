@@ -1,3 +1,7 @@
 pimcore_feed_homepage:
-    path:     /pimcore_feed
+    path:     /google_feed
+    defaults: { _controller: PimcoreFeedBundle:Default:index }
+
+pimcore_feed_homepage:
+    path:     /facebook_feed
     defaults: { _controller: PimcoreFeedBundle:Default:index }

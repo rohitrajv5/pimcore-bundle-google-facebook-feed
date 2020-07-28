@@ -1,6 +1,6 @@
 <?php
 
-namespace PimcoreFeedBundle;
+namespace PimcoreFeedBundle\PimcoreFeedBundle;
 
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 

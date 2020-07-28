@@ -18,6 +18,17 @@ class DefaultController extends FrontendController
     
     public function defaultAction(Request $request)
     {        
+                         
+    }
+    
+    /**
+     * @Route("/google-feed", name="google_feed")
+     *
+     * @param Request $request
+     *    
+     */
+    public function googleFeedAction(Request $request)
+    {        
         $products = new DataObject\Product\Listing();        
         $products =  $products->load();        
         header ("Content-Type:text/xml");        
@@ -42,6 +53,11 @@ class DefaultController extends FrontendController
     }
 
 
+    /**
+     * @Route("/facebook-feed", name="facebook_feed")
+     *
+     * @param Request $request     
+     */
     public function facebookFeedAction()
     {
         header ("Content-Type:text/xml"); 

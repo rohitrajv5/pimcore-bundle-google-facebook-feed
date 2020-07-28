@@ -4,19 +4,19 @@ PimcoreFeedBundle use to generate feed from your product class
 
 ## Installation
 
-Install this bundle using composer install
+#### Install with comporser
 ```bash
 composer install rohitrajv5/pimcore-bundle-google-facebook-feed
 ```
-Enable PimcoreFeedBundle bundle
+#### Enable PimcoreFeedBundle bundle
 ```bash
 bin/console pimcore:bundle:enable PimcoreFeedBundle
 ```
-Install assets
+#### Install assets
 ```bash
 bin/console assets:install web
 ```
-use following packages in your controller
+##### use following packages in your controller
 ```bash
 use PimcoreFeedBundle\Service\Feed;
 use PimcoreFeedBundle\Service\Item;
@@ -24,7 +24,7 @@ use PimcoreFeedBundle\Service\FacebookProductItem;
 use PimcoreFeedBundle\Service\SimpleXMLElement;
 use PimcoreFeedBundle\Service\Channel;
 ```
-Add following actions in your controller
+#### Add following actions in your controller
 ```bash
     const BASE_URL = "YOUR URL";
     const CHANNEL_TITLE = "YOUR TITLE";
@@ -109,7 +109,6 @@ You are done !
 # Navigate to Google & Facebook Feed urls!
     Google: http://[YOUR_APPLICATION_URL]/google-feed
     Facebook: http://[YOUR_APPLICATION_URL]/facebook-feed
-
 
 # Facebook Feed:!
 ![alt text](https://i.postimg.cc/yY81VZxF/Screenshot-from-2020-07-07-15-17-45.png)
